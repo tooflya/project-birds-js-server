@@ -1,0 +1,15 @@
+{
+  "name": "project-birds-js-server",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/"
+  },
+  "author": "",
+  "license": "?",
+  "dependencies": {
+    "socket.io": "~0.8.4"
+  }
+}
