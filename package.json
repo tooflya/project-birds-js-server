@@ -10,6 +10,8 @@
   "author": "",
   "license": "?",
   "dependencies": {
-    "socket.io": "~0.8.4"
+    "socket.io": "~0.8.4",
+    "mysql": "~2.3.2",
+    "mysql-utilities": "~1.0.5"
   }
 }
