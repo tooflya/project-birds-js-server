@@ -1,8 +1,9 @@
 var mysql = require('mysql');
 
-var io = require('socket.io').listen(82, {
+var io = require('socket.io').listen(8082, {
 });
 
+io.set('transports', ['xhr-polling']);
 io.sockets.on('connection', function(socket) {
   mysql.utilities = require('mysql-utilities');
 
